@@ -25,14 +25,14 @@ venv\Scripts\activate
 pip install flask authlib python-dotenv requests
 ```
 
-#### Configure .env
-AUTH0_DOMAIN=hycst.ca.auth0.com
+#### Configure .env  (the values have been removed)
+AUTH0_DOMAIN=************
 
-AUTH0_CLIENT_ID=bDjHxws4eZfabTDaYZlqQadY4knIHlUz
+AUTH0_CLIENT_ID=************
 
-AUTH0_CLIENT_SECRET=6e4vQNd5Jq2pXef2Q2ucKDzfG_580_F4iV04z3b0Ne4XtCIt5np94NlT4-IjCyBg
+AUTH0_CLIENT_SECRET=************
 
-AUTH0_SECRET=mysecretkey
+AUTH0_SECRET=************
 
 AUTH0_REDIRECT_URI=http://localhost:5000/callback
 
